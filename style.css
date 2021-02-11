@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  background: #333;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  width: 565px;
+  height: 400px;
+  overflow: hidden;
+  transition: 0.5s;
+  cursor: all-scroll;
+}
+
+.content img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
